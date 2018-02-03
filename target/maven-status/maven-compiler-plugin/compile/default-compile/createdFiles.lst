@@ -1,0 +1,8 @@
+com\qa\Util\TestUtil.class
+com\qa\Pages\LoginPage.class
+com\qa\Helpers\DataHelper.class
+com\qa\Pages\UnsuccessfulSignupPage.class
+com\qa\Pages\HomePage.class
+com\qa\Util\TestBase.class
+com\qa\Pages\SignupPage.class
+com\qa\Pages\ReadDataExcelSignupPage.class

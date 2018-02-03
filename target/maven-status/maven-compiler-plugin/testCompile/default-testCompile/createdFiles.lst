@@ -1,0 +1,8 @@
+com\qa\StepDefination\UnsuccessfulSignup.class
+com\qa\StepDefination\ReadDataExcelSignupSteps.class
+com\qa\TestRunner\ReadDataExcelTestRunner.class
+com\qa\TestRunner\LoginTestRunner.class
+com\qa\TestRunner\SignupTestRunner.class
+com\qa\StepDefination\LoginSteps.class
+com\qa\StepDefination\SignupSteps.class
+com\qa\TestRunner\UnsuccessfulSignupTestRunner.class

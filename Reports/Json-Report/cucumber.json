@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9140561216,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UnsuccessfulSignup.SetUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "FaceBook Login Test Scenario",
+        "description": "",
+        "id": "facebook-login-feature;facebook-login-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1888582321,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UnsuccessfulSignup.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94549385,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#Given user is already on Login Page"
+              }
+            ],
+            "line": 8,
+            "name": "title of login page is Facebook - Log In or Sign Up",
+            "match": {
+              "location": "LoginSteps.title_of_login_page_is_Facebook_Log_In_or_Sign_Up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5094340428,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"EmailId\" and \"Pwd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EmailId",
+                  "offset": 13
+                },
+                {
+                  "val": "Pwd",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.user_enters_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67391490,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginSteps.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 874334199,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on Traingle button",
+            "match": {
+              "location": "LoginSteps.user_click_on_Traingle_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90107673,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on Logout button",
+            "match": {
+              "location": "LoginSteps.click_on_Logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 945414352,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login Feature",
+    "description": "\r\n\r\nwithout Examples Keyword",
+    "id": "facebook-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Selenium Projects/FacebookBDDFramework/src/test/java/com/qa/Features/Login.feature"
+  }
+]

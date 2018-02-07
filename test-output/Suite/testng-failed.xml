@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="UnsuccessfulSignup(failed)">
+    <classes>
+      <class name="com.qa.StepDefination.UnsuccessfulSignup">
+        <methods>
+          <include name="user_enters_Signup_Credentials_with_blank_EmailId"/>
+          <include name="verify_blank_EmailId_error_messege"/>
+          <include name="verify_blank_FirstName_error_messege"/>
+          <include name="user_enters_Signup_Credentials_with_blank_firstname"/>
+        </methods>
+      </class> <!-- com.qa.StepDefination.UnsuccessfulSignup -->
+    </classes>
+  </test> <!-- UnsuccessfulSignup(failed) -->
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.qa.StepDefination.LoginSteps">
+        <methods>
+          <include name="user_is_on_home_page"/>
+          <include name="title_of_login_page_is_Facebook_Log_In_or_Sign_Up"/>
+          <include name="user_is_on_Login_Page"/>
+          <include name="user_click_on_Traingle_button"/>
+          <include name="click_on_Logout_button"/>
+          <include name="user_enters_and"/>
+        </methods>
+      </class> <!-- com.qa.StepDefination.LoginSteps -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

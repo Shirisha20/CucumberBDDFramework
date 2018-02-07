@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.66 s <<< FAILURE! - in TestSuite
+run_cukes(com.qa.TestRunner.SignupTestRunner)  Time elapsed: 0.038 s  <<< FAILURE!
+cucumber.runtime.CucumberException: Couldn't load plugin class: com.cucumber.listener
+Caused by: java.lang.ClassNotFoundException: com.cucumber.listener
+

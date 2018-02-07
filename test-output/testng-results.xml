@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: Login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Facebook Login Feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: FaceBook Login Test Scenario</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  title of login page is Facebook - Log In or Sign Up (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user enters &quot;EmailId&quot; and &quot;Pwd&quot; (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user is on home page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user click on Traingle button (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  click on Logout button (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user is on Login Page (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: ReadDataExcelSignup.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Fill a simple form with excel data</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Data driven with excel and data sets</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Data driven with excel and data sets</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user enters Signup Credentials with excel row &quot;&lt;row_index&gt;&quot; dataset (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Data driven with excel and data sets</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user enters Signup Credentials with excel row &quot;1&quot; dataset (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: Signup.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Facebook Signup</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Facebook Create a new Account scenario</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user enters Signup Credentials with excel row &quot;2&quot; dataset (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  title of Home page is Facebook - Log In or Sign Up (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: UnsuccessfulSignup.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Facebook Unsuccessful Signup</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Create a new Account scenario with Blank FirstName</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user enters Signup Credentials to Sign Up (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user enters Signup Credentials with blank firstname (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Create a new Account scenario with Blank EmailId</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify blank FirstName error messege (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user enters Signup Credentials with blank EmailId (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="89603" started-at="2018-02-05T05:12:22Z" finished-at="2018-02-05T05:13:52Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.qa.TestRunner.SignupTestRunner@3701eaf6]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="89603" started-at="2018-02-05T05:12:22Z" finished-at="2018-02-05T05:13:52Z">
+      <class name="com.qa.TestRunner.SignupTestRunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.qa.TestRunner.SignupTestRunner@3701eaf6]" name="run_cukes" duration-ms="89587" started-at="2018-02-04T23:12:22Z" description="Runs Cucumber Features" finished-at="2018-02-04T23:13:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: Login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Facebook Login Feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: FaceBook Login Test Scenario</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  title of login page is Facebook - Log In or Sign Up (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user enters &quot;EmailId&quot; and &quot;Pwd&quot; (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user is on home page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user click on Traingle button (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  click on Logout button (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user is on Login Page (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: ReadDataExcelSignup.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Fill a simple form with excel data</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Data driven with excel and data sets</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Data driven with excel and data sets</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user enters Signup Credentials with excel row &quot;&lt;row_index&gt;&quot; dataset (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Data driven with excel and data sets</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user enters Signup Credentials with excel row &quot;1&quot; dataset (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: Signup.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Facebook Signup</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Facebook Create a new Account scenario</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user enters Signup Credentials with excel row &quot;2&quot; dataset (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  title of Home page is Facebook - Log In or Sign Up (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: UnsuccessfulSignup.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Facebook Unsuccessful Signup</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Create a new Account scenario with Blank FirstName</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user enters Signup Credentials to Sign Up (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user enters Signup Credentials with blank firstname (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Create a new Account scenario with Blank EmailId</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify blank FirstName error messege (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user enters Signup Credentials with blank EmailId (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- com.qa.TestRunner.SignupTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

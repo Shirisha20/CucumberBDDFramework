@@ -1,0 +1,13 @@
+Feature: Facebook Login Feature
+  
+  
+  without Examples Keyword
+
+  Scenario: FaceBook Login Test Scenario                     # C:/Selenium Projects/FacebookBDDFramework/src/test/java/com/qa/Features/Login.feature:6
+    #Given user is already on Login Page
+    When title of login page is Facebook - Log In or Sign Up # LoginSteps.title_of_login_page_is_Facebook_Log_In_or_Sign_Up()
+    Then user enters "EmailId" and "Pwd"                     # LoginSteps.user_enters_and(String,String)
+    Then user is on home page                                # LoginSteps.user_is_on_home_page()
+    When user click on Traingle button                       # LoginSteps.user_click_on_Traingle_button()
+    And click on Logout button                               # LoginSteps.click_on_Logout_button()
+    Then user is on Login Page                               # LoginSteps.user_is_on_Login_Page()
